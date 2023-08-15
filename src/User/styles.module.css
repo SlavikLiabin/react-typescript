@@ -1,0 +1,31 @@
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid lightblue;
+    min-height: 50px;
+}
+
+.name{
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.rank{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
